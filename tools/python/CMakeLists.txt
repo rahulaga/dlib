@@ -1,7 +1,7 @@
 
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8.12)
 
-set(USE_SSE4_INSTRUCTIONS ON CACHE BOOL "Use SSE4 instructions")
+set(USE_SSE2_INSTRUCTIONS ON CACHE BOOL "Use SSE2 instructions")
 # Make DLIB_ASSERT statements not abort the python interpreter, but just return an error.
 add_definitions(-DDLIB_NO_ABORT_ON_2ND_FATAL_ERROR)
 
